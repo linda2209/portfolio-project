@@ -69,7 +69,6 @@ p {
 .content h3 {
   font-size: 24px;
   line-height: 1.5;
-
   font-family: var(--default-font-family);
 }
 
@@ -116,7 +115,10 @@ p {
   .hero {
     padding: 80px 20px;
   }
-
+  .content {
+    text-align: center;
+    padding: 0;
+  }
   .project-description {
     padding: 0;
     text-align: center;
